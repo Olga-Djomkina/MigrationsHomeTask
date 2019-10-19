@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3e05c84-a9e3-4870-afda-79dbb7717788" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5158fb0-ca0f-49df-83e2-cabf2faba35f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5158fb0-ca0f-49df-83e2-cabf2faba35f.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e3e05c84-a9e3-4870-afda-79dbb7717788" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +75,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_213627_drop_status_column_in_posts_table.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_213933_add_user_id_column_to_posts_table.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_214226_alter_table_posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -100,6 +116,8 @@
         <option value="$PROJECT_DIR$/database/migrations/2019_10_19_212540_change_posts_title_column_type.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_10_19_213041_add_slug_column_to_posts_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_10_19_213627_drop_status_column_in_posts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_10_19_213933_add_user_id_column_to_posts_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_10_19_214226_alter_table_posts.php" />
       </list>
     </option>
   </component>
@@ -269,7 +287,7 @@
       <workItem from="1571187688525" duration="3063000" />
       <workItem from="1571260746121" duration="599000" />
       <workItem from="1571342743304" duration="1198000" />
-      <workItem from="1571480077872" duration="4502000" />
+      <workItem from="1571480077872" duration="4744000" />
     </task>
     <task id="LOCAL-00001" summary="created Model Post &amp; Migration">
       <created>1571519217171</created>
@@ -313,11 +331,18 @@
       <option name="project" value="LOCAL" />
       <updated>1571521126975</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added new column user_id to table posts">
+      <created>1571521332143</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571521332143</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10465000" />
+    <option name="totallyTimeSpent" value="10707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -355,7 +380,8 @@
     <MESSAGE value="changed columns of table posts" />
     <MESSAGE value="added new column slug to table posts" />
     <MESSAGE value="deleted column status in table posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted column status in table posts" />
+    <MESSAGE value="added new column user_id to table posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new column user_id to table posts" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_100000_create_password_resets_table.php">
@@ -437,6 +463,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="16" column="88" selection-start-line="16" selection-start-column="88" selection-end-line="16" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_213933_add_user_id_column_to_posts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_214226_alter_table_posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
