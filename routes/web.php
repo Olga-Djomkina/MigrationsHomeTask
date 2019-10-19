@@ -14,3 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/user', function () {
+    $result=factory(\App\User::class, 5)->create();
+    dd($result);
+});
+
+Route::get('/post', function () {
+    $result=factory(\App\Post::class, 5)->create();
+    dd($result);
+});
